@@ -1,0 +1,30 @@
+
+#### Data
+
+This data contains the geographical location information (i.e. address, postcode, longitude and latitude) for Starbucks, Tim Hortons and Dunkin' Donuts, which are the three of main coffee chains in the world, and data set also shows that the majority part of business are located in USA and Canada. Moreover, this coffee chain data also includes the coffee chain name, business name and some other location of each coffeehouse. 
+
+The data source is from github [coffee chains](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018/2018-05-07) data.
+
+
+#### Purpose
+
+The purpose of the app is to:
+
+1. Use the spatial techniques to map the geometry locations of coffeehouses on the map, so it will be very easy for potential users to visualize and understand the distributions of coffeehouses among each country.
+
+2. Connect the potential users with the coffee chain data set directly, so the users can access and view the data without any requirement of coding knowledge.
+
+3. Make a comparison of total number of coffeehouses in a country for different coffee chains.
+
+The app used interactive components to see the distribution of coffeehouses in a country with the coffeehouses' business name labelled. The app also uses data table component to demonstrate the data set and enables the users to access the data via the app.  The last part of app uses an interactive approach for a user compare the total number of coffeehouses between countries. 
+
+#### Creator
+
+Xianghe Xu (xxuu0086@student.monash.edu)
+
+<details>
+<summary>Session information</summary>
+```{r, echo = FALSE}
+sessioninfo::session_info()
+```
+</details>
